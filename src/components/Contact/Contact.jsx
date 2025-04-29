@@ -37,22 +37,22 @@ const Contact = () => {
     <div className='contact'>
       <div className="contact-col">
         <h3>Send us a message <img src={msg_icon} alt="" /></h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae repellendus quisquam delectus molestiae ipsa exercitationem necessitatibus odio ducimus dolorum soluta iure aliquam non sit, distinctio libero voluptatibus unde esse voluptatem.</p>
+        <p>Nếu bạn cần tư vấn hoặc muốn đặt lịch chụp ảnh kỷ yếu, đừng ngần ngại nhắn tin cho chúng tôi! Đội ngũ của chúng tôi luôn sẵn sàng hỗ trợ và mang đến cho bạn trải nghiệm tuyệt vời nhất.</p>
         <ul>
-          <li><img src={mail_icon} alt="" />luuconghai0104@gmail.com</li>
-          <li><img src={phone_icon} alt="" />0369017983</li>
-          <li><img src={location_icon} alt="" />Nam Dinh, Vietnam</li>
+          <li><img src={mail_icon} alt="" />tiemanhluckymedia@gmail.com</li>
+          <li><img src={phone_icon} alt="" />033 346 0336</li>
+          <li><img src={location_icon} alt="" />Hanoi, Vietnam</li>
         </ul>
       </div>
       <div className="contact-col">
         <form onSubmit={onSubmit}>
           <label>Your name</label>
-          <input type="text" name='name' placeholder='Enter your name' required />
+          <input type="text" name='name' placeholder='Nhập tên của bạn' required />
           <label>Phone number / Email</label>
-          <input type="text" name='phone/email' placeholder='Enter your mobile number / email' required />
+          <input type="text" name='phone/email' placeholder='Nhập số điện thoại hoặc email của bạn' required />
           <label>Write your messages here</label>
-          <textarea name="message" rows='6' placeholder='Enter your message' required></textarea>
-          <button type='submit' className='btn dark-btn'>Submit now <img src={white_arrow} alt="" /></button>
+          <textarea name="message" rows='6' placeholder='Nhập thông điệp của bạn' required></textarea>
+          <button type='submit' className='btn dark-btn'>Gửi ngay <img src={white_arrow} alt="" /></button>
         </form>
         <span>{result}</span>
         

@@ -32,6 +32,9 @@ a{
   align-items: center;
   justify-content: center;
 }
+.btn:hover{
+  opacity: 0.8;
+}
 .btn img{
   width: 20px;
   margin-left: 10px;

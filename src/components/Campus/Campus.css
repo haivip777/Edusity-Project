@@ -2,18 +2,36 @@
   margin: 80px auto;
   width: 90%;
   text-align: center;
+  position: relative;
 }
 .gallery{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 40px;
 
 }
 .gallery img{
-  width: 23%;
+  width: 95%;
   border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+.slider-campus {
+  overflow: hidden;
+}
+
+.slider-campus ul {
+  display: flex;
+  transition: 0.5s ease;
+  /* width: 200%; */
+}
+
+.slider-campus ul li {
+  list-style: none;
+  width: 100%; /* mỗi ảnh 100% chiều rộng slider */
+  padding: 20px;
+}
+
 
 /* --- media queries --- */
 
@@ -22,7 +40,6 @@
     flex-wrap: wrap;
   }
   .gallery img{
-    width: 48%;
     margin-bottom: 25px;
   }
 }

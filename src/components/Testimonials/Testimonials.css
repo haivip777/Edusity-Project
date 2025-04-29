@@ -7,23 +7,27 @@
   position: absolute;
   top: 50%;
   right: 0;
-  transform: translateY(-50%);
+  transform: translateY(-120%);
   padding: 15px;
   width: 50px;
   border-radius: 50%;
   cursor: pointer;
   background: #212EA0;
+  z-index: 10;
 }
 .back-btn{
   right: auto;
   left: 0;
+}
+.next-btn:hover, .back-btn:hover{
+  opacity: 0.8;
 }
 .slider{
   overflow: hidden; /*ẩn phần tử con vượt quá kích thước cha slider */
 }
 .slider ul{
   display: flex;
-  width: 200%;
+  width: 400%;
   overflow-x: hidden;
   transition: 0.5s;
 }
