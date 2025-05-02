@@ -11,6 +11,7 @@ import Contact from './components/Contact/Contact.jsx'
 import Footer from './components/Footer/Footer.jsx'
 import VideoPlayer from './components/VideoPlayer/VideoPlayer.jsx'
 import MotionWrapper from './components/MotionWrapper/MotionWrapper.jsx'
+import SocialFixedIcons from './components/SocialFixedIcons/SocialFixedIcons.jsx'
 
 const App = () => {
   
@@ -35,6 +36,7 @@ const App = () => {
         <Footer/>
       </div>
       <VideoPlayer playState={playState} setPlayState={setPlayState}/>
+      <SocialFixedIcons />
     </div>
   )
 }

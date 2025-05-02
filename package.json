@@ -1,9 +1,9 @@
 {
-  "name": "edusity-project",
+  "name": "Photography",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://haivip777.github.io/Edusity-Project",
+  "homepage": "https://haivip777.github.io/Photography",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -16,7 +16,8 @@
     "framer-motion": "^12.9.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scroll": "^1.9.3"
+    "react-scroll": "^1.9.3",
+    "themify-icons": "^1.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
