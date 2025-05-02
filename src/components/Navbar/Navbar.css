@@ -41,6 +41,9 @@ nav ul li{
   nav{
     /* padding: 15px 0; */
   }
+  .logo{
+    width: 45px;
+  }
   nav ul{
     position: fixed;
     top: 0;

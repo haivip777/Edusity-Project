@@ -5,11 +5,15 @@ import gallery_1 from '../../assets/photography/gallery-1.png'
 import gallery_2 from '../../assets/photography/gallery-2.png'
 import gallery_3 from '../../assets/photography/gallery-3.png'
 import gallery_4 from '../../assets/photography/gallery-4.png'
-import white_arrow from '../../assets/white-arrow.png'
+import gallery_5 from '../../assets/photography/gallery-5.png'
+import gallery_6 from '../../assets/photography/gallery-6.png'
+import gallery_7 from '../../assets/photography/gallery-7.png'
+import gallery_8 from '../../assets/photography/gallery-8.png'
+// import white_arrow from '../../assets/white-arrow.png'
 import next_icon from '../../assets/next-icon.png';
 import back_icon from '../../assets/back-icon.png';
 
-const galleryData = [ gallery_1, gallery_2, gallery_3, gallery_4 ];
+const galleryData = [ gallery_1, gallery_2, gallery_3, gallery_4, gallery_5, gallery_6, gallery_7, gallery_8 ]
 const Campus = () => {
   const slider = useRef();
   const tx = useRef(0); // dùng useRef thay vì let
@@ -50,7 +54,7 @@ const Campus = () => {
           ))}
         </ul>
       </div>
-      <button className='btn dark-btn'>Xem thêm <img src={white_arrow} alt="" /></button>
+      {/* <button className='btn dark-btn'>Xem thêm <img src={white_arrow} alt="" /></button> */}
     </div>
   )
 }
